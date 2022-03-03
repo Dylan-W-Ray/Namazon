@@ -59,7 +59,7 @@ const storeItemModel=require('./storeItem')
 const cartSchema=require('./cart')
 const cartItemSchema=require('./cartItem')
 
-const url='mongodb+srv://Jobe-Smith:LawnMowerMan-1992@cluster0.7yxso.mongodb.net/NamazonDB?retryWrites=true&w=majority'
+const url= //Secret goes here
 let database;
 const initializeDataBase=async() => {
     database= await mongoose.connect(url);
