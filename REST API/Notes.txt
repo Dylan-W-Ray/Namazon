@@ -1,0 +1,46 @@
+Routes complete:
+-Custom GET to see all users.
+-GET(1.1) app.get('/user/:UserId'
+-POST(1.2) app.post('/user'
+-GET(2.1) app.get('/user/:UserId/cart'
+-Custom GET to see all store items.
+-GET(4.1) app.get('/StoreItem/:StoreItemID'
+-GET(4.2) app.get('/StoreItem'
+-DELETE(2.2) app.delete('/user/:UserId/cart'
+-POST(3.1) app.post('/user/:UserId/cart/:CartId/cartItem'
+
+Routes incomplete:
+-DELETE(3.2) app.delete('/user/:UserId/cart/:CartId/cartItem/:cartItemId'
+
+
+React example components
+
+export default class Greetings extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+
+        showGreeting() {
+        if(this.props.showGreeting) {
+            return (
+                <span>
+                    Hello World!
+                </span>
+            )
+        }
+            }
+
+        render() {
+        return (
+            <div>
+                <span>{this.showGreeting()}</span>
+                <button onClick={this.props.toggleHandler}>
+                Say Hello?
+                </button>
+            </div>
+        )
+    };
+};
+
+

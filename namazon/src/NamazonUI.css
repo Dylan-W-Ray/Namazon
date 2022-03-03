@@ -1,0 +1,59 @@
+
+body {
+
+}
+.MasterComponent {
+
+}
+
+.login h1 {
+    color: red;
+}
+
+.Welcome {
+    position:fixed;
+    top:5px;
+
+}
+
+.cartArea {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    margin: 4px;
+    padding: 4px;
+    width: fit-content;
+    height:400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    background-color: mediumseagreen;
+    border:solid;
+    font-family: "Bell MT", serif;
+    border:solid;
+}
+.storeArea{
+   position: fixed;
+    bottom: 5px;
+    margin: 4px;
+    padding: 4px;
+    width: fit-content;
+    height:400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    background-color: mediumseagreen;
+    border:solid;
+}
+
+ul {
+    text-align:start;
+}
+
+.deleteButton {
+    padding-left: 20px;
+}
+
+.TopStoreLevel {
+    position: center;
+}
